@@ -40,7 +40,7 @@ st.sidebar.header("Filters")
 all_regions = sorted(data["Region"].unique())
 selected_regions = st.sidebar.multiselect("Region", all_regions, default=all_regions)
 
-all_income = sorted(data["IncomeGroup"].unique())
+all_income = sorted(data["IncomeGroup"].dropna().unique())
 selected_income = st.sidebar.multiselect("Income Group", all_income, default=all_income)
 
 year_range = st.sidebar.slider("Year Range", 2000, 2022, (2000, 2022))
