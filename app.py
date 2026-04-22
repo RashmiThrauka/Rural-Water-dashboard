@@ -4,7 +4,7 @@ import plotly.express as px
 import os
 
 st.set_page_config(
-    page_title="DRINKING WATER ACCESS DASHBOARD",
+    page_title="Drinking Water Access Dashboard",
     layout="wide"
 )
 
@@ -33,7 +33,7 @@ def load_data():
 
 data = load_data()
 
-st.title("Safely Managed Drinking Water Access")
+st.title("SAFELY MANAGED DRINKING WATER ACCESS")
 st.caption("Percentage of population using safely managed drinking water services · Source: World Bank — WHO/UNICEF Joint Monitoring Programme")
 st.divider()
 
