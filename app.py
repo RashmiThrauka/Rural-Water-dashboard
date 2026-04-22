@@ -5,7 +5,6 @@ import os
 
 st.set_page_config(
     page_title="Drinking Water Access Dashboard",
-    page_icon="💧",
     layout="wide"
 )
 
@@ -34,7 +33,7 @@ def load_data():
 
 data = load_data()
 
-st.title("💧 Safely Managed Drinking Water Access")
+st.title("Safely Managed Drinking Water Access")
 st.caption("Percentage of population using safely managed drinking water services · Source: World Bank — WHO/UNICEF Joint Monitoring Programme")
 st.divider()
 
@@ -80,7 +79,7 @@ with col4:
 
 st.divider()
 
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["🌍 Global Map", "📈 Trends", "🔄 Comparison", "📊 Analysis", "📋 Data"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["Global Map", "Trends", "Comparison", "Analysis", "Data"])
 
 with tab1:
     available_years = sorted(filtered["Year"].unique())
