@@ -4,7 +4,7 @@ import plotly.express as px
 import os
 
 st.set_page_config(
-    page_title="Drinking Water Access Dashboard",
+    page_title="DRINKING WATER ACCESS DASHBOARD",
     layout="wide"
 )
 
